@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:orientation="vertical"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".MainActivity">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/MyName"-->
+    <!--android:text="Miguel Angel Garcia Desena"-->
+    <!--android:background="@android:color/darker_gray"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="24sp"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/MyInstitution"-->
+    <!--android:text="Universidad Catolica Tecnologica de Barahona"-->
+    <!--android:background="@android:color/darker_gray"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="24sp"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/MyPhrase"-->
+        <!--android:text="Tu mejor opcion a la excelencia"-->
+        <!--android:background="@android:color/darker_gray"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="24sp"/>-->
+
+<!--</LinearLayout>-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/linearLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Linear Layout Vertical"/>
+    <Button
+        android:id="@+id/linearLayoutHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Linear Layout Horizontal"/>
+    <Button
+        android:id="@+id/RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Relative Layout"/>
+    <Button
+        android:id="@+id/TableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Table Layout"/>
+    <Button
+        android:id="@+id/FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Frame Layout"/>
+    <Button
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="List View"/>
+    <Button
+        android:id="@+id/GridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Grid View"/>
+
+</LinearLayout>
