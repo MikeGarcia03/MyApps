@@ -19,7 +19,9 @@
         <activity android:name=".LayoutActivity" />
         <activity android:name=".activity_list_view" />
         <activity android:name=".activity_grid_view" />
-        <activity android:name=".activity_custom_adapter"></activity>
+        <activity android:name=".activity_custom_adapter" />
+        <activity android:name=".MyEditTextActivity" />
+        <activity android:name=".AutoCompleteTextViewActivity"></activity>
     </application>
 
 </manifest>

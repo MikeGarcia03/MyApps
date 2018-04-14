@@ -15,7 +15,8 @@ public class LayoutActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         int layoutId = getIntent().getIntExtra("LayoutKey",R.layout.nofound);
-        setContentView(layoutId);
+        //setContentView(layoutId);
+        setContentView(R.layout.autocompletetextview);
 
         if (R.layout.gridview == layoutId){
 
